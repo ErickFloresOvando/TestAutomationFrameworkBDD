@@ -1,8 +1,8 @@
-h1>  🚀 BDD  Test Automation Framework with Cucumber </h1>
+<h1>  🚀 BDD  Test Automation Framework with Cucumber </h1>
 
 
 ## 📌 Project Overview
-This framework implements a Hybrid Automation architecture to ensure that tests are resilient to UI changes and easy to scale.
+This framework implements a BDD Automation Framework to ensure that tests are resilient to UI changes and easy to scale usign Cucumber framework and Gherkin language.
 It is a modular, scalable, and maintainable automation framework built with Java and Selenium WebDriver.
 
 The framework validates different login scenarios for the nopCommerce Admin Portal:
