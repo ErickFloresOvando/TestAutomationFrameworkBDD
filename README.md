@@ -1,25 +1,33 @@
-🚀 Cucumber Test Automation Framework
+h1>  🚀 BDD  Test Automation Framework with Cucumber </h1>
 
 
-📌 Project Description
+## 📌 Project Overview
+This framework implements a Hybrid Automation architecture to ensure that tests are resilient to UI changes and easy to scale.
+It is a modular, scalable, and maintainable automation framework built with Java and Selenium WebDriver.
 
-The framework validates different login scenarios for the nopCommerce Admin Portal.
+The framework validates different login scenarios for the nopCommerce Admin Portal:
 
 🔗 http://admin-demo.nopcommerce.com/login
 
 
-🛠️ Tech Stack
+## 🚀 **Technologies & Tools**
+-☕ Java
+-🥒 Cucumber (BDD)
+-🌐 Selenium WebDriver
+-🧪 TestNG
+-📦 Maven
+-📝 Log4j2
+-🧪 Test Scenarios Covered
 
-☕ Java
-🥒 Cucumber (BDD)
-🌐 Selenium WebDriver
-🧪 TestNG
-📦 Maven
-📝 Log4j2
-🧪 Test Scenarios Covered
+## 🛠️ Project Setup
+ Prerequisites:
+- Java JDK 17 installed.
 
+- Maven installed and configured in your system path.
 
-✅ Valid Login Scenario
+- Google Chrome browser updated to the latest version.
+
+## ✅ Valid Login Scenario
 
 User enters valid email and password
 
@@ -28,21 +36,21 @@ User clicks login
 User is redirected to dashboard
 
 
-❌ Invalid Login Scenario
+## ❌ Invalid Login Scenario
 
 User enters invalid credentials
 
 Error message is displayed
 
 
-⚠️ Empty Fields Validation
+## ⚠️ Empty Fields Validation
 
 User tries to login without entering credentials
 
 Validation messages are displayed
 
 
-🧱 Framework Design Pattern
+## 🧱 Framework Design Pattern
 
 ✅ Page Object Model (POM)
 
@@ -55,7 +63,7 @@ Validation messages are displayed
 ✅ Logging implementation with Log4j2
 
 
-📊 Reporting
+## 📊 Reporting
 
 TestNG Reports
 
