@@ -5,8 +5,8 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions
         (
-                features = ".//features/Login.feature",
-                glue = "stepsdefinitions",
+                features = ".//Features/Login.feature",
+                glue = "stepdefinitions",
                 dryRun = false,
                 monochrome = true,
                 plugin = {"pretty", "html:test-output"}
